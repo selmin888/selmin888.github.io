@@ -1,5 +1,5 @@
 ---
-title: "flex-wrap and align-content"
+title: "Properties for flex-items"
 categories:
   - CSS
 tags:
@@ -71,5 +71,8 @@ The **flex-basis** property sets the initial main size of a flex item.
 The **flex-basis** property is specified as either the keyword content or a <'width'>.
 단위를 꼭 써줘야한다. 0값을 줄때도.
 
-> <'width'> >An absolute <length>, a <percentage> of the parent flex container's main size property, or the keyword auto. Negative values are invalid. Defaults to auto.
-> content >max-content, min-content, fit-content, content, fill
+**<'width'>**
+An absolute <length>, a <percentage> of the parent flex container's main size property, or the keyword auto. Negative values are invalid. Defaults to auto.
+
+**content**
+max-content, min-content, fit-content, content, fill
