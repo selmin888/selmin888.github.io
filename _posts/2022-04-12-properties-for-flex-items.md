@@ -28,6 +28,7 @@ is same
 ```
 
 **flex-grow** and **flex-shrink** are uesful when you do responsive design!
+So, check this.
 
 ### flex-grow
 
@@ -93,3 +94,13 @@ flex-item 's size is deermined by size of **flex container**
 ```
 
 flex-item 's size is deermined by size of **contents**
+
+### again **flex**
+
+initial value : `flex: 0 1 auto;`
+
+So when `flex` is specified single <number>, it mean `flex-grow`.
+For example `flex: 2;` is same `flex: 2 1 0;` .
+
+You want fix the size of flex-item. Use `flex: none;`
+This mean `flex-grow: 0; flex-shrink: 0; flex-basis: auto;`
