@@ -33,7 +33,7 @@ So, check this.
 ### flex-grow
 
 **flex-grow** is about flex-itme 's expansion.
-It is specified as a single <number>.
+It is specified as a single **number**.
 Negative values are invalid.
 Defaults : 0.
 
@@ -43,8 +43,8 @@ Default : when screen is bigger, the blank is bigger.
 
 ### flex-shrink
 
-**flex-shrink** is about flex-itme 's shrink.
-It is specified as a single <number>.
+**flex-shrink** is about flex-itme's shrink.
+It is specified as a single **number**.
 Negative values are invalid.
 Defaults : 1.
 
@@ -69,12 +69,12 @@ If the size of all flex items is larger than the flex container, items shrink to
 
 The **flex-basis** property sets the initial main size of a flex item.
 
-The **flex-basis** property is specified as either the keyword content or a <'width'>.
+The **flex-basis** property is specified as either the keyword **content** or a **'width'**.
 단위를 꼭 써줘야한다. 0값을 줄때도.
 Defaults : auto
 
-**<'width'>**
-An absolute <length>, a <percentage> of the parent flex container's main size property, or the keyword auto. Negative values are invalid. Defaults to auto.
+**'width'**
+An absolute **length**, a **percentage** of the parent flex container's main size property, or the keyword auto. Negative values are invalid. Defaults to auto.
 
 **content**
 max-content, min-content, fit-content, content, fill
@@ -99,7 +99,7 @@ flex-item 's size is deermined by size of **contents**
 
 initial value : `flex: 0 1 auto;`
 
-So when `flex` is specified single <number>, it mean `flex-grow`.
+So when `flex` is specified single **number**, it mean `flex-grow`.
 For example `flex: 2;` is same `flex: 2 1 0;` .
 
 You want fix the size of flex-item. Use `flex: none;`
